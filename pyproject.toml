@@ -1,2 +1,11 @@
+[project]
+name = "hacklingo-backend"
+version = "1.0.0"
+description = "Backend Groq para HackLingo"
+requires-python = ">=3.9"
+dependencies = [
+    "requests",
+]
+
 [tool.vercel]
 entrypoint = "api.chat:handler"
